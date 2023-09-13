@@ -1,0 +1,6 @@
+#this run the spark submit every 1 minute
+
+*/1 * * * *  /opt/spark/bin/spark-submit --driver-class-path /lib/jvm/java-11-openjdk-amd64/lib/postgresql-42.6.0.jar  ./Desktop/spark_final_project/Solutions_finall.py
+
+
+
